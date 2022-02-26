@@ -1,0 +1,47 @@
+<form action="/users/create" method="POST">
+    <!-- Div For Name -->
+    <div class="form-group">
+      <input
+      type="text"
+      name="name"
+      id="InputName"
+      placeholder="Enter Name"
+      required />
+    </div>
+  
+    <!-- Div For Email Field -->
+    <div class="form-group">
+      <input
+        type="email"
+        name="email"
+        id="InputEmail"
+        placeholder="Enter email"
+        required
+      />
+      <small id="emailHelp">We'll never share your email with anyone else.</small>
+    </div>
+  
+    <!-- Div For Password Field -->
+    <div class="form-group">
+      <input
+        type="password"
+        name="password"
+        id="InputPassword"
+        placeholder="Password"
+        required
+      />
+      
+    <!-- Div For Confirm_Password Field -->
+    <div class="form-group">
+      <input
+        type="password"
+        name="confirm_password"
+        id="InputConfirmPassword"
+        placeholder="Confirm Password"
+        required
+      />
+  
+    </div>
+    <button type="submit">Sign Up</button>
+  </form>
+  
