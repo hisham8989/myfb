@@ -3,6 +3,8 @@ const path = require('path')
 const port = 9000
 const app = express()
 const expresLayouts = require('express-ejs-layouts')
+const db = require('./config/mongoose');
+
 
 app.use(expresLayouts)
 
