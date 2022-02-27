@@ -1,0 +1,26 @@
+header {
+  navbar {
+    background-color: #50b5d6;
+    display: flex;
+    justify-content: space-between;
+    div {
+      margin: 0 30px 0 30px;
+      h3 {
+        color: #ececec;
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+      .nav-links {
+        display: flex;
+        li {
+          margin-left: 15px;
+          a {
+            color: #4361e6;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,15 @@
-body{
-    margin: 0;
-    /* text-align: center; */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    #layout-main{
-        height: 100%;
-    }
+  #layout-main {
+    height: 100vh;
+  }
+}
 
+li {
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
 }
