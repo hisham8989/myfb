@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%=title%></title>
     <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />  
     <%- style %>
   </head>
-  <body style="font-family: sans-serif">
-    <%- include('./partials/_header'); %> <%- body %> <%-
-    include('./partials/_footer'); %> <%- script%>
+  <body>
+    <%- include('./partials/_header'); %>
+
+    <main id="layout-main"> 
+      
+      <%- body %>
+    
+    </main>
+
+    <%- include('./partials/_footer'); %> <%- script%>
   </body>
 </html>
