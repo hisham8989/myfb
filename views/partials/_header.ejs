@@ -6,7 +6,11 @@
     <div>
       <ul class="nav-links">
         <% if(locals.user){ %>
-        <li><a href="/users/profile"><%= user.name %></a></li>
+        <li>
+          <a href="/users/profile"
+            ><span style="text-transform: capitalize"><%= user.name %></span></a
+          >
+        </li>
         <li><a href="/users/sign-out">Sign Out</a></li>
 
         <% }else{ %>
