@@ -1,0 +1,14 @@
+<li id="comment-<%=comment._id%>">
+  <p>
+    <%=comment.content%> <br />
+    <small>commented by <sub><%=comment.user.name%></sub></small>
+    <br />
+    <% if(locals.user && (locals.user.id == comment.user.id)){%>
+    <small>
+      <a class="delete-comment-btn" href="/comments/destroy/<%=comment.id%>"
+        ><span style="font-size: larger">&#9940;</span> delete</a
+      >
+    </small>
+    <%} %>
+  </p>
+</li>

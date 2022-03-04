@@ -1,8 +1,9 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
   body #layout-main {
-    height: 100vh; }
+    min-height: 100vh; }
 
 li {
   list-style: none; }
