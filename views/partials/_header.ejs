@@ -8,7 +8,7 @@
         <% if(locals.user){ %>
         <li>
           <a href="/users/profile/<%= user.id %>"
-            ><span style="text-transform: capitalize"></span></a
+            ><span style="text-transform: capitalize"><%= user.name %></span></a
           > 
         </li>
         <li><a href="/users/sign-out">Sign Out</a></li>

@@ -9,9 +9,8 @@ module.exports.create = async function (req, res) {
       user: req.user._id,
     })
 
-    post.user = await User.findById(post.user)
-
-    // password should be removed 
+    post.user = await User.findById(post.user).select("-password")
+    // password should be removed
     if (req.xhr) {
       return res.status('200').json({
         data: {

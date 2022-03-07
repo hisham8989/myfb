@@ -10,12 +10,12 @@
         url: '/posts/create',
         data: newPostForm.serialize(),
         success: function (data) {
-          let newPost = new newPostDom(data.data.post)
-          $('#posts-list-container>ul').prepend(newPost)
-          deletePost($(' .delete-post-btn', newPost))
-          createComment(data.data.post._id)
-          
-          notification('success',data.message)          
+          let post = data.data.post
+          let newPost = new newPostDom(post)
+          $('#posts-list-container>ul').prepend(newPost) // <--
+          deletePost($(' .delete-post-btn', newPost)) 
+          createComment(post._id)
+          notification('success', data.message)
         },
         error: function (error) {
           console.log(error.responseText)
@@ -49,6 +49,7 @@
   
     <div class="post-comments-list">
       <ul id="post-comment-${post._id}">
+
       </ul>
     </div>
   </div>
@@ -68,7 +69,7 @@
         url: $(deleteLink).prop('href'),
         success: function (data) {
           $(`#post-${data.data.post_id}`).remove()
-          notification('warning',data.message)
+          notification('warning', data.message)
         },
         error: function (error) {
           console.log(error.responseText)
@@ -78,11 +79,10 @@
   }
   createPost()
 
-
-//comments
+  //comments
   let createComment = function (post_id) {
     let newCommentForm = $(`#new-comment-form-${post_id}`)
-
+    
     newCommentForm.submit(function (e) {
       e.preventDefault()
 
@@ -92,12 +92,9 @@
         data: newCommentForm.serialize(),
         success: function (data) {
           let newComment = new newCommentDom(data.data.comment)
-
-          
           $('.post-comments-list>ul').prepend(newComment)
-          console.log($(' .delete-comment-btn', newComment));
-          deleteComment($(' .delete-comment-btn', newComment)) 
-          notification('info',data.message) 
+          deleteComment($(' .delete-comment-btn', newComment))
+          notification('info', data.message)
         },
         error: function (error) {
           console.log(error.responseText)
@@ -125,50 +122,39 @@
 
   // Method to destroy comments
   let deleteComment = function (deleteLink) {
-    console.log(deleteLink);
-    // $(deleteLink).click(function (e) {
-    //   console.log('click delete link');
-    //   e.preventDefault()
+    console.log(deleteLink)
+    $(deleteLink).click(function (e) {
+      console.log('click delete link')
+      e.preventDefault()
 
-    //   // Ajax Call to get response from server
-    //   $.ajax({
-    //     type: 'get',
-    //     url: $(deleteLink).prop('href'),
-    //     success: function (data) {
-    //       console.log('success ajax res')
-    //       $(`#comment-${data.data.comment_id}`).remove()
-    //     },
-    //     error: function (error) {
-    //       console.log(error.responseText)
-    //     },
-    //   })
-    // })
-
-    $(deleteLink).on('click',(e)=>{
-        e.preventDefault()
-        console.log('chal gya');
+      // Ajax Call to get response from server
+      $.ajax({
+        type: 'get',
+        url: $(deleteLink).prop('href'),
+        success: function (data) {
+          console.log('success ajax res')
+          $(`#comment-${data.data.comment_id}`).remove()
+        },
+        error: function (error) {
+          console.log(error.responseText)
+        },
+      })
     })
-
-
   }
-
-  // createComment()
 }
 
-
-
 /**
-   * 
-   *  notification('type','message') 
-   * 
-   */
+ *
+ *  notification('type','message')
+ *
+ */
 
- let notification = function (type,text) {
+let notification = function (type, text) {
   new Noty({
-    theme:'metroui',
-    text:text,
-    type:type,
-    layout:'topRight',
-    timeout:1500
+    theme: 'metroui',
+    text: text,
+    type: type,
+    layout: 'topRight',
+    timeout: 1500,
   }).show()
- }
+}

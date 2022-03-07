@@ -1,3 +1,23 @@
 body{
     background-color: brown;
 }
+
+.image-preview{
+    width: 300px;
+    min-height: 150px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .image-preview__image{
+        display: none;
+        width: 100%;
+    }
+
+    .image-preview__default-text{
+    color: #cccccc;
+    font-weight: bold;
+    font-size: larger;
+    }
+}

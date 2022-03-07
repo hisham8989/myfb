@@ -1,9 +1,12 @@
 footer {
+  position: sticky;
+  bottom: 0;
+
   #footer-container {
     background-color: #66a2b9;
     display: flex;
     justify-content:felx-start div {
       margin: 0 30px 0 30px;
     }
-  }
+  } 
 }
