@@ -6,10 +6,18 @@
     padding: 10px;
   }
 
-  #user-friends {
+  #all-users {
     width: 30%;
     padding: 10px;
     border-left: 1px solid lightgray;
     // height: 100%;
+    .all-users-container{
+      max-height: 250px;
+      max-width: 300px;
+      overflow-y: hidden;
+    }
+    .all-users-container:hover{
+      overflow-y: scroll;
+    }
   }
 }

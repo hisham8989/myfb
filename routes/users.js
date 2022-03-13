@@ -18,6 +18,9 @@ router.get('/sign-in', usersController.signIn)
 
 router.post('/create', usersController.create)
 
+/** Create Friendship */
+// router.post('/create-friendship', usersController.create)
+
 // use passport as a middleware to authenticate
 router.post(
   '/create-session',

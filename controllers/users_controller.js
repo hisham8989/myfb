@@ -126,3 +126,8 @@ module.exports.destroySession = function (req, res) {
   req.flash('success', 'You have logged out!')
   return res.redirect('/')
 }
+
+
+module.exports.createFriendship = function (req,res) {
+  return res.redirect('back')
+}

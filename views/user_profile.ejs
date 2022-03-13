@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="/css/user_profile.css" />
-<img src="<%=user.avatar%>" alt="<%= user.name %>" width="100" />
+<img src="<%=profile_user.avatar%>" alt="<%= profile_user.name %>" width="100" />
 
 <div class="image-preview" id="imagePreview">
   <img src="" alt="Image Preview" class="image-preview__image"/>
@@ -34,7 +34,13 @@
 <!-- show only profile info -->
 <p><%= profile_user.name%></p>
 <p><%= profile_user.email%></p>
-
+<h4>
+  <a href="/?fromId=<%= user.id %>&toId=<%= profile_user.id %>">Add as a friend</a>
+  <br>
+  <%= user.name %> <%= user.id %> 
+  <br /> 
+  <%= profile_user.name %> <%= profile_user.id %>   
+</h4>
 <% } %>
 
 <script src="/js/user_profile.js"></script>
