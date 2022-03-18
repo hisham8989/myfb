@@ -106,3 +106,58 @@
 ::ffff:127.0.0.1 - - [13/Mar/2022:10:03:57 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
 ::ffff:127.0.0.1 - - [13/Mar/2022:10:03:57 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
 ::ffff:127.0.0.1 - - [13/Mar/2022:10:03:57 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+[0mGET / [32m200[0m 151.710 ms - 4355[0m
+[0mGET / [32m200[0m 83.998 ms - 4356[0m
+[0mGET / [36m304[0m 31.815 ms - -[0m
+[0mGET / [32m200[0m 29.385 ms - 4356[0m
+[0mGET /favicon.ico [33m404[0m 7.678 ms - 150[0m
+[0mGET / [32m200[0m 24.957 ms - 4355[0m
+[0mGET / [32m200[0m 20.174 ms - 4355[0m
+[0mGET /favicon.ico [33m404[0m 9.054 ms - 150[0m
+[0mGET / [32m200[0m 18.900 ms - 4355[0m
+[0mGET /favicon.ico [33m404[0m 6.512 ms - 150[0m
+[0mGET / [32m200[0m 22.779 ms - 4355[0m
+[0mGET /favicon.ico [33m404[0m 3.124 ms - 150[0m
+[0mGET / [32m200[0m 38.483 ms - 4355[0m
+[0mGET /favicon.ico [33m404[0m 3.018 ms - 150[0m
+[0mGET / [32m200[0m 23.741 ms - 4355[0m
+[0mGET /favicon.ico [33m404[0m 5.614 ms - 150[0m
+::ffff:127.0.0.1 - - [13/Mar/2022:19:59:44 +0000] "GET / HTTP/1.1" 500 2228 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:00:13 +0000] "GET / HTTP/1.1" 500 2228 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET / HTTP/1.1" 200 2654 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:04 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:08 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET / HTTP/1.1" 304 - "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:12 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:17 +0000] "GET /users/profile/ HTTP/1.1" 404 153 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:23 +0000] "GET /users/sign-in HTTP/1.1" 200 2193 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:28 +0000] "POST /users/create-session HTTP/1.1" 302 72 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [13/Mar/2022:20:06:28 +0000] "GET /users/sign-in HTTP/1.1" 200 2396 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
