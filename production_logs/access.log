@@ -161,3 +161,124 @@
 ::ffff:127.0.0.1 - - [13/Mar/2022:20:06:23 +0000] "GET /users/sign-in HTTP/1.1" 200 2193 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
 ::ffff:127.0.0.1 - - [13/Mar/2022:20:06:28 +0000] "POST /users/create-session HTTP/1.1" 302 72 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
 ::ffff:127.0.0.1 - - [13/Mar/2022:20:06:28 +0000] "GET /users/sign-in HTTP/1.1" 200 2396 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+[0mGET / [32m200[0m 133.876 ms - 4355[0m
+[0mGET /favicon.ico [0m-[0m - ms - -[0m
+[0mGET /users/sign-in [32m200[0m 6.338 ms - 2157[0m
+[0mGET /users/css/layout.css [33m404[0m 8.960 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 17.163 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 19.746 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 7.659 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 4.938 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 6.617 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 7.268 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.907 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 5.362 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 7.708 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.393 ms - 159[0m
+[0mPOST /users/create-session [36m302[0m 13.537 ms - 46[0m
+[0mGET / [32m200[0m 25.438 ms - 7345[0m
+[0mPOST /comments/create [32m200[0m 28.822 ms - 310[0m
+[0mGET /users/sign-out [36m302[0m 5.425 ms - 46[0m
+[0mGET / [32m200[0m 73.222 ms - 4787[0m
+[0mGET /users/sign-in [32m200[0m 5.761 ms - 2157[0m
+[0mGET /users/css/header.css [33m404[0m 9.261 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 11.081 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 16.893 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 5.121 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 7.080 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 4.574 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.375 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 5.157 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.569 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 7.453 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 7.437 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 3.408 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.273 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 5.906 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 2.760 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.002 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.805 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 8.976 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 8.845 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 9.166 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 7.924 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 4.339 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 6.414 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 7.996 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 14.843 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 6.433 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 7.955 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.242 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 3.112 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.238 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.482 ms - 159[0m
+[0mGET /users/sign-in [32m200[0m 8.027 ms - 2157[0m
+[0mGET /users/css/layout.css [33m404[0m 6.329 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 6.175 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 3.837 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 2.353 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.375 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.225 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 2.605 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 6.940 ms - 2157[0m
+[0mGET /users/css/layout.css [33m404[0m 8.672 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 8.285 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 10.711 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 5.891 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 5.843 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 5.175 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 4.906 ms - 150[0m
+[0mGET /users/sign-up [32m200[0m 6.403 ms - 2727[0m
+[0mGET /users/css/layout.css [33m404[0m 10.390 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 6.566 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 8.128 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 7.784 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 4.378 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 5.319 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 3.682 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 9.984 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 4.968 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 7.738 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 6.679 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.136 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.532 ms - 159[0m
+[0mGET / [32m200[0m 22.430 ms - 4587[0m
+[0mGET /users/profile/621b48fadc061fe87d8a0817 [36m302[0m 3.590 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 6.962 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 6.426 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 7.035 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.223 ms - 159[0m
+[0mPOST /users/create-session [36m302[0m 4.911 ms - 46[0m
+[0mGET / [32m200[0m 25.157 ms - 7178[0m
+[0mGET /users/profile/621b48fadc061fe87d8a0817 [32m200[0m 18.513 ms - 2584[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 18.822 ms - 167[0m
+[0mGET /users/profile/css/header.css [33m404[0m 21.241 ms - 167[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 21.119 ms - 167[0m
+[0mGET / [32m200[0m 21.539 ms - 6976[0m
+[0mGET /users/profile/621bbb6cfa8b2919b255fcc0 [32m200[0m 7.491 ms - 2333[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 19.934 ms - 167[0m
+[0mGET /users/profile/css/header.css [33m404[0m 22.660 ms - 167[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 22.658 ms - 167[0m
+[0mGET /uploads/users/avatars/avatar-1646503470470-352869490 [33m404[0m 5.816 ms - 191[0m
+[0mGET / [36m304[0m 20.008 ms - -[0m
+[0mGET /users/profile/622243278a3dc185c614cefc [32m200[0m 5.872 ms - 2291[0m
+[0mGET /users/profile/css/layout.css [33m404[0m 15.050 ms - 167[0m
+[0mGET /users/profile/css/header.css [33m404[0m 15.358 ms - 167[0m
+[0mGET /users/profile/css/footer.css [33m404[0m 14.704 ms - 167[0m
+[0mGET /users/sign-out [36m302[0m 5.289 ms - 46[0m
+[0mGET / [32m200[0m 21.210 ms - 4787[0m
+[0mGET /users/profile/6226796fe23b0608cee1cfe1 [36m302[0m 3.672 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 6.503 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 6.743 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 9.373 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 5.596 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 2.103 ms - 159[0m
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET / HTTP/1.1" 200 2654 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::ffff:127.0.0.1 - - [18/Mar/2022:23:13:47 +0000] "GET /users/sign-in HTTP/1.1" 200 2193 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
