@@ -31,7 +31,7 @@ const development = {
   google_client_secret: process.env.CODEIAL_GOOGLE_CLIENT_SECRET,
   google_call_back_url: process.env.CODEIAL_GOOGLE_CALL_BACK_URL,
   jwt_secret: 'codeial',
-  login_session_duration:`${2*1000*60}`,
+  login_session_duration:2*1000*60,
   morgan:{
     mode:'dev',
     options:{stream:accessLogStream}
@@ -39,7 +39,7 @@ const development = {
 }
 
 const production = {
-  name: 'production',
+  name: process.env.CODEIAL_ENVIRONMENT,
   asset_path: process.env.CODEIAL_ASSET_PATH,
   session_cookie_key: process.env.CODEIAL_SESSION_COOKIE_KEY,
   db: process.env.CODEIAL_DB,
@@ -64,4 +64,4 @@ const production = {
   }
 }
 
-module.exports = eval(process.env.CODEIAL_ENVIRONMENT) == undefined ? development : eval(process.env.CODEIAL_ENVIRONMENT)
+module.exports = eval(process.env.NODE_ENV) == undefined ? development : eval(process.env.NODE_ENV)
