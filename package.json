@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "prod_start": "SET CODEIAL_ENVIRONMENT=production & nodemon index.js",
-    "prod": "export CODEIAL_ENVIRONMENT=production & nodemon index.js"
+    "prod": "NODE_ENV=production & nodemon index.js"
   },
   "author": "Hisham khan",
   "license": "ISC",
