@@ -31,6 +31,7 @@ chatServer.listen(5000, () => {
 const path = require('path')
 //** End Of Requiring packages */
 
+console.log("Environment :",env.name);
 if (env.name == 'development') {
   app.use(
     sassMiddleware({

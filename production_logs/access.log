@@ -282,3 +282,263 @@
 ::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
 ::ffff:127.0.0.1 - - [18/Mar/2022:23:13:43 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
 ::ffff:127.0.0.1 - - [18/Mar/2022:23:13:47 +0000] "GET /users/sign-in HTTP/1.1" 200 2193 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET / HTTP/1.1" 200 2654 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:03 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:07 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+::1 - - [19/Mar/2022:21:06:07 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+[0mGET / [32m200[0m 132.000 ms - 4587[0m
+[0mGET /favicon.ico [33m404[0m 8.603 ms - 150[0m
+[0mGET /users/profile/621b48fadc061fe87d8a0817 [36m302[0m 4.881 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 9.119 ms - 2157[0m
+[0mGET /users/css/header.css [33m404[0m 16.416 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 15.934 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 9.406 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 3.281 ms - 159[0m
+[0mGET /css/layout-7c1d0e66de.css [33m404[0m 2.490 ms - 164[0m
+[0mGET /css/header-dac7cc5a6b.css [33m404[0m 4.020 ms - 164[0m
+[0mGET /css/footer-e43d156bcf.css [33m404[0m 7.954 ms - 164[0m
+[0mGET /css/layout-7c1d0e66de.css [33m404[0m 6.218 ms - 164[0m
+[0mGET /css/header-dac7cc5a6b.css [33m404[0m 6.333 ms - 164[0m
+[0mGET /css/footer-e43d156bcf.css [33m404[0m 7.656 ms - 164[0m
+[0mGET /favicon.ico [33m404[0m 2.913 ms - 150[0m
+[0mGET / [32m200[0m 350.067 ms - 4587[0m
+[0mGET /users/sign-in [32m200[0m 8.258 ms - 2157[0m
+[0mGET /users/css/layout.css [33m404[0m 4.904 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 6.117 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.295 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 5.760 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 6.147 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.769 ms - 159[0m
+[0mGET /users/sign-in [31m500[0m 11.468 ms - 2098[0m
+[0mGET /users/sign-in [32m200[0m 7.625 ms - 2425[0m
+[0mGET /users/css/layout.css [33m404[0m 9.473 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 7.605 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 12.049 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 6.148 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.785 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 3.381 ms - 159[0m
+[0mGET /users/sign-in [32m200[0m 9.363 ms - 2186[0m
+[0mGET /users/css/layout.css [33m404[0m 6.489 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 8.403 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 10.380 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 4.228 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 4.010 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 3.341 ms - 159[0m
+[0mGET /users/auth/google/callback?code=4%2F0AX4XfWgAg0haSNDBaQhQGYnqbX2vjQqMG0y9u9mOGsJ3MrkZ1B__0I4MRr9wYKKjA9Gmig&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [31m500[0m 312.448 ms - 1260[0m
+[0mGET /users/sign-in [32m200[0m 61.931 ms - 2234[0m
+[0mGET /users/css/layout.css [33m404[0m 15.235 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 18.143 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 22.608 ms - 159[0m
+[0mGET /users/css/sign_in.css [33m404[0m 29.242 ms - 160[0m
+[0mGET /users/css/header.css [33m404[0m 4.578 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.320 ms - 159[0m
+[0mGET /users/css/sign_in.css [33m404[0m 4.092 ms - 160[0m
+[0mGET /users/sign-in [36m304[0m 7.930 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 14.382 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 11.061 ms - 159[0m
+[0mGET /users/css/sign_in.css [33m404[0m 9.902 ms - 160[0m
+[0mGET /users/css/header.css [33m404[0m 14.986 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 4.205 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.624 ms - 159[0m
+[0mGET /users/css/sign_in.css [33m404[0m 5.141 ms - 160[0m
+[0mGET / [32m200[0m 120.375 ms - 4616[0m
+[0mGET /users/sign-in [36m304[0m 8.063 ms - -[0m
+[0mGET /users/css/header.css [33m404[0m 18.626 ms - 159[0m
+[0mGET /users/css/sign_in.css [33m404[0m 13.615 ms - 160[0m
+[0mGET /users/css/footer.css [33m404[0m 13.595 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 14.918 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 4.864 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 2.597 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 5.971 ms - 159[0m
+[0mGET /users/css/sign_in.css [33m404[0m 4.904 ms - 160[0m
+[0mGET /users/sign-in [32m200[0m 6.298 ms - 2305[0m
+[0mGET / [32m200[0m 333.751 ms - 4739[0m
+[0mGET /users/sign-in [36m304[0m 5.860 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 8.205 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 5.096 ms - 2508[0m
+[0mPOST /users/create-session [36m302[0m 8.469 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 3.745 ms - -[0m
+[0mGET / [36m304[0m 29.808 ms - -[0m
+[0mGET /users/profile/621b48fadc061fe87d8a0817 [36m302[0m 3.759 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 2.793 ms - 2305[0m
+[0mPOST /users/create-session [36m302[0m 7.195 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 2.991 ms - 2508[0m
+[0mPOST /users/create-session [36m302[0m 8.414 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 3.817 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 6.729 ms - 46[0m
+[0mGET / [32m200[0m 26.000 ms - 7330[0m
+[0mGET / [32m200[0m 57.217 ms - 7170[0m
+[0mGET /js/home_post_comments.js [33m404[0m 28.766 ms - 163[0m
+[0mGET /js/home_posts.js [33m404[0m 16.533 ms - 155[0m
+[0mGET /js/toggle_likes.js [33m404[0m 29.201 ms - 157[0m
+[0mGET /js/chat_engine.js [33m404[0m 30.017 ms - 156[0m
+[0mGET / [36m304[0m 30.576 ms - -[0m
+[0mGET /js/home_post_comments.js [33m404[0m 31.750 ms - 163[0m
+[0mGET /css/layout.css [33m404[0m 30.668 ms - 153[0m
+[0mGET /css/header.css [33m404[0m 31.554 ms - 153[0m
+[0mGET /css/footer.css [33m404[0m 29.317 ms - 153[0m
+[0mGET /css/home.css [33m404[0m 34.197 ms - 151[0m
+[0mGET /css/chat_box.css [33m404[0m 34.508 ms - 155[0m
+[0mGET /js/home_posts.js [33m404[0m 17.828 ms - 155[0m
+[0mGET /js/toggle_likes.js [33m404[0m 15.323 ms - 157[0m
+[0mGET /js/chat_engine.js [33m404[0m 17.652 ms - 156[0m
+[0mGET / [32m200[0m 24.634 ms - 7168[0m
+[0mGET /js/home_posts.js [33m404[0m 24.840 ms - 155[0m
+[0mGET /css/layout.css [33m404[0m 30.595 ms - 153[0m
+[0mGET /css/home.css [33m404[0m 26.692 ms - 151[0m
+[0mGET /css/header.css [33m404[0m 29.799 ms - 153[0m
+[0mGET /css/footer.css [33m404[0m 43.459 ms - 153[0m
+[0mGET /css/chat_box.css [33m404[0m 37.569 ms - 155[0m
+[0mGET /js/home_post_comments.js [33m404[0m 31.925 ms - 163[0m
+[0mGET /js/toggle_likes.js [33m404[0m 30.261 ms - 157[0m
+[0mGET /js/chat_engine.js [33m404[0m 12.266 ms - 156[0m
+[0mGET / [36m304[0m 24.854 ms - -[0m
+[0mGET /css/layout.css [33m404[0m 24.260 ms - 153[0m
+[0mGET /js/home_post_comments.js [33m404[0m 25.904 ms - 163[0m
+[0mGET /css/header.css [33m404[0m 24.226 ms - 153[0m
+[0mGET /css/footer.css [33m404[0m 26.749 ms - 153[0m
+[0mGET /css/home.css [33m404[0m 29.471 ms - 151[0m
+[0mGET /css/chat_box.css [33m404[0m 47.788 ms - 155[0m
+[0mGET /js/toggle_likes.js [33m404[0m 34.043 ms - 157[0m
+[0mGET /js/chat_engine.js [33m404[0m 20.729 ms - 156[0m
+[0mGET /js/home_posts.js [33m404[0m 19.000 ms - 155[0m
+[0mGET / [36m304[0m 67.323 ms - -[0m
+[0mGET / [36m304[0m 35.944 ms - -[0m
+[0mGET /users/sign-out [36m302[0m 13.327 ms - 46[0m
+[0mGET / [32m200[0m 23.556 ms - 4979[0m
+[0mGET /users/sign-in [32m200[0m 11.040 ms - 2347[0m
+[0mGET /users/css/header.css [33m404[0m 14.111 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 10.860 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 14.713 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 9.347 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 10.471 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 9.336 ms - 159[0m
+[0mGET /users/sign-in [32m200[0m 9.972 ms - 2329[0m
+[0mGET / [32m200[0m 24.336 ms - 4761[0m
+[0mGET /users/sign-in [36m304[0m 6.783 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 9.031 ms - -[0m
+[0mGET /users/sign-up [32m200[0m 6.706 ms - 2903[0m
+[0mGET /users/sign-in [36m304[0m 7.100 ms - -[0m
+::1 - - [20/Mar/2022:20:41:15 +0000] "GET /users/sign-in HTTP/1.1" 200 2314 "http://localhost:9000/users/sign-up" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:20 +0000] "GET /css/layout.css HTTP/1.1" 404 153 "http://localhost:9000/users/sign-up" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:20 +0000] "GET /css/header.css HTTP/1.1" 404 153 "http://localhost:9000/users/sign-up" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:20 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:9000/users/sign-up" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:23 +0000] "GET / HTTP/1.1" 200 2801 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:23 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:23 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:23 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:23 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:23 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:23 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:57 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:57 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:57 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:57 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:57 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:41:58 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:43:48 +0000] "GET / HTTP/1.1" 200 2847 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:43:48 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:43:48 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:43:48 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:43:48 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:43 +0000] "GET / HTTP/1.1" 200 3114 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:43 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:43 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:43 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:43 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:46 +0000] "GET / HTTP/1.1" 200 3114 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:46 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:46 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:46 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:46 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:48:46 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:07 +0000] "GET / HTTP/1.1" 200 3095 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:07 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:07 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:07 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:07 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:07 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:12 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:12 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:12 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:12 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:12 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:49:12 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:32 +0000] "GET / HTTP/1.1" 200 3114 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:32 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:32 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:32 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:32 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:52 +0000] "GET /users/sign-in HTTP/1.1" 200 2360 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:54 +0000] "GET / HTTP/1.1" 304 - "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:54 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:54 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:54 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:54 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:56 +0000] "GET / HTTP/1.1" 304 - "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:56 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:56 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:56 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:50:56 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:51:50 +0000] "GET / HTTP/1.1" 304 - "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:51:50 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:51:50 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:51:50 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:51:50 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:32 +0000] "GET / HTTP/1.1" 200 3105 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:32 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:32 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:32 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::ffff:127.0.0.1 - - [20/Mar/2022:20:52:32 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:38 +0000] "GET / HTTP/1.1" 200 3114 "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:38 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:38 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:38 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:38 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:39 +0000] "GET / HTTP/1.1" 304 - "http://localhost:9000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:39 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:39 +0000] "GET /js/home_posts.js HTTP/1.1" 404 155 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:39 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+::1 - - [20/Mar/2022:20:52:39 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:9000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Mobile Safari/537.36"
+[0mGET / [32m200[0m 51.645 ms - 4984[0m
+[0mGET /favicon.ico [33m404[0m 8.428 ms - 150[0m
+[0mGET / [36m304[0m 122.920 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 12.391 ms - 2327[0m
+[0mGET / [36m304[0m 31.260 ms - -[0m
+[0mGET / [36m304[0m 350.416 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 11.998 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 8.659 ms - 46[0m
+[0mGET / [32m200[0m 24.346 ms - 7575[0m
+[0mPOST /likes/toggle/?id=623510f11a014c9f055b5273&type=Post [31m500[0m 25.319 ms - 35[0m
+[0mGET /users/profile/621b48fadc061fe87d8a0817 [32m200[0m 42.069 ms - 2769[0m
+[0mPOST /users/update/621b48fadc061fe87d8a0817 [36m302[0m 21.375 ms - 164[0m
+[0mGET /users/profile/621b48fadc061fe87d8a0817 [32m200[0m 8.480 ms - 2966[0m
+[0mGET /users/profile/621b48fadc061fe87d8a0817 [32m200[0m 11.301 ms - 2769[0m
+[0mGET / [32m200[0m 30.900 ms - 7373[0m
+[0mGET / [32m200[0m 20.240 ms - 7150[0m
+[0mPOST /likes/toggle/?id=623510f11a014c9f055b5273&type=Post [31m500[0m 10.965 ms - 35[0m
+[0mPOST /likes/toggle/?id=62292dae3d6ed046db9ae23b&type=Post [32m200[0m 11.268 ms - 49[0m
+[0mPOST /likes/toggle/?id=62292e5d3d6ed046db9ae249&type=Post [31m500[0m 12.283 ms - 35[0m
+[0mGET / [32m200[0m 25.461 ms - 7150[0m
+[0mPOST /likes/toggle/?id=623510f11a014c9f055b5273&type=Post [31m500[0m 13.989 ms - 35[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 9.543 ms - 49[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 9.510 ms - 48[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 10.072 ms - 49[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 12.347 ms - 48[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 9.814 ms - 49[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 8.227 ms - 48[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 9.850 ms - 49[0m
+[0mGET / [32m200[0m 27.297 ms - 7150[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 16.191 ms - 48[0m
+[0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 12.313 ms - 49[0m
