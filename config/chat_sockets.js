@@ -11,25 +11,20 @@ module.exports.chatSockets = function (socketServer) {
   io.sockets.on('connection', function (socket) {
     console.log('New Connect Recieved ::', socket.id)
 
-
     socket.on('disconnect', function () {
       console.log('Socket disconnected')
     })
 
-    socket.on('join_room',function (data) {
-
-      console.log('Joining Request Recieved By codeial',data);
+    socket.on('join_room', function (data) {
+      console.log('Joining Request Recieved By codeial', data)
 
       socket.join(data.chatroom)
 
-      io.in(data.chatroom).emit('user_joined',data)
-      
+      io.in(data.chatroom).emit('user_joined', data)
     })
 
-    socket.on('send_message',function (data) {
-
-      io.in(data.chatroom).emit('recieve_message',data)
-      
+    socket.on('send_message', function (data) {
+      io.in(data.chatroom).emit('recieve_message', data)
     })
   })
 }
