@@ -542,3 +542,13 @@
 [0mGET / [32m200[0m 27.297 ms - 7150[0m
 [0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 16.191 ms - 48[0m
 [0mPOST /likes/toggle/?id=6229efa4c6b7c5ac7760443a&type=Post [32m200[0m 12.313 ms - 49[0m
+[0mGET / [32m200[0m 245.851 ms - 4761[0m
+[0mGET /favicon.ico [0m-[0m - ms - -[0m
+[0mGET /users/sign-in [32m200[0m 12.989 ms - 2327[0m
+[0mPOST /users/create-session [36m302[0m 16.772 ms - 46[0m
+[0mGET / [32m200[0m 51.325 ms - 7352[0m
+[0mGET / [32m200[0m 123.207 ms - 4761[0m
+[0mGET /favicon.ico [33m404[0m 3.675 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 35.161 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 18.309 ms - 46[0m
+[0mGET / [32m200[0m 39.128 ms - 8115[0m
