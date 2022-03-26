@@ -4,7 +4,7 @@ module.exports.chatSockets = function (socketServer) {
   let io = Server(socketServer, {
     // Fixing the cors issue
     cors: {
-      origin: 'http://localhost:9000',
+      origin: 'http://3.110.213.142:9000',
     },
   })
   //   console.log(io.sockets.on)
